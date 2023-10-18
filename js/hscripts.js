@@ -16,7 +16,7 @@ function carousel() {
 /**hides and shows contact**/
 function myFunction() {
   var x = document.getElementById("Contact");
-  if (x.style.display === "none") {
+  if (x.style.display == "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
